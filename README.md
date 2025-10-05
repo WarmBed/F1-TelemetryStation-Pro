@@ -16,7 +16,7 @@ In-depth single-lap performance analysis
 - Driver lap time comparison
 - Fastest lap analysis
 - Comprehensive telemetry data
-
+![logo](https://github.com/WarmBed/F1-TelemetryStation-Pro/blob/main/images/Lap.track.png)
 **Sub-modules:**
 - ⚡ **Speed Analysis** - Velocity tracking and comparison
 - 🛑 **Brake Analysis** - Braking pressure and points
@@ -44,7 +44,7 @@ Advanced lap time data analysis
 - Detailed lap time tables
 - Box plot visualizations
 - Statistical distribution analysis
-
+![logo](https://github.com/WarmBed/F1-TelemetryStation-Pro/blob/main/images/tire.lap.detailed.rain.png)
 #### 🔥 Accident Analysis Module
 Race incident investigation
 - Incident timestamps
