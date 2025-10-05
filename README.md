@@ -32,7 +32,7 @@ Strategic pitstop efficiency evaluation
 - Pitstop duration statistics
 - Stop frequency comparison
 - Team efficiency metrics
-
+![logo](https://github.com/WarmBed/F1-TelemetryStation-Pro/blob/main/images/pitstop.accidient.png)
 #### 🗺️ Track Analysis Module
 Interactive track visualization
 - Circuit trajectory display
