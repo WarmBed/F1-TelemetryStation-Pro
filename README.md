@@ -92,7 +92,6 @@ Contributions are welcome! Please feel free to submit pull requests or open issu
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 🙏 Acknowledgments
-F1 TelemetryStation Pro Core Team
 FastF1 API Contributors
 OpenF1 API Contributors
 📧 Contact
