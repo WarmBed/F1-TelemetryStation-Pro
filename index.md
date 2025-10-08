@@ -1,3 +1,68 @@
+---
+layout: default
+title: F1-TelemetryStation-Pro - Formula 1 Data Analysis & Telemetry Visualization Tool
+description: Professional F1 telemetry analysis workstation for lap comparison, speed traces, throttle analytics, and race insights using FastF1 API
+---
+
+<!-- ✅ SEO Meta Tags - 搜尋引擎優化標籤 -->
+<meta name="description" content="F1-TelemetryStation-Pro: Open-source Formula 1 data analysis and telemetry visualization tool for lap comparison, speed traces, throttle analysis, and track strategy. Professional race data analytics for engineers and F1 fans.">
+<meta name="keywords" content="F1 data analysis, Formula 1 telemetry, FastF1, race data, motorsport analytics, lap time comparison, telemetry visualization, F1 telemetry tool, racing data analysis, F1 analytics, throttle analysis, speed trace, F1 race strategy">
+<meta name="author" content="WarmBed">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="F1-TelemetryStation-Pro - Formula 1 Telemetry Analysis Tool">
+<meta property="og:description" content="Professional F1 data analysis workstation with lap comparison, throttle analytics, and comprehensive telemetry visualization.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://warmbed.github.io/F1-TelemetryStation-Pro/">
+<meta property="og:image" content="https://warmbed.github.io/F1-TelemetryStation-Pro/images/Rain.track.pitstop.tire.accident.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="F1-TelemetryStation-Pro - F1 Data Analysis Tool">
+<meta name="twitter:description" content="Open-source Formula 1 telemetry analysis and visualization tool for professional race data analytics.">
+<meta name="twitter:image" content="https://warmbed.github.io/F1-TelemetryStation-Pro/images/Rain.track.pitstop.tire.accident.png">
+
+<!-- ✅ Structured Data (JSON-LD) - 結構化資料標記 -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "F1-TelemetryStation-Pro",
+  "applicationCategory": "DataVisualization",
+  "operatingSystem": "Windows, macOS, Linux",
+  "url": "https://warmbed.github.io/F1-TelemetryStation-Pro/",
+  "description": "An open-source Formula 1 data analysis and telemetry visualization tool for lap comparison, speed traces, throttle analytics, and race insights. Professional telemetry workstation for F1 engineers and racing enthusiasts.",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "license": "https://opensource.org/licenses/MIT",
+  "softwareVersion": "0.2.0",
+  "datePublished": "2025-10-08",
+  "author": {
+    "@type": "Person",
+    "name": "WarmBed",
+    "url": "https://github.com/WarmBed"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "WarmBed"
+  },
+  "screenshot": "https://warmbed.github.io/F1-TelemetryStation-Pro/images/Rain.track.pitstop.tire.accident.png",
+  "featureList": [
+    "F1 lap time comparison and analysis",
+    "Throttle usage analysis and visualization",
+    "Speed trace and telemetry data tracking",
+    "Rain and weather impact analysis",
+    "Pitstop strategy evaluation",
+    "Interactive track visualization",
+    "Multi-driver comparison tools",
+    "Real-time telemetry data from FastF1 API"
+  ],
+  "keywords": "F1, Formula 1, telemetry, data analysis, FastF1, motorsport analytics, lap comparison, racing data"
+}
+</script>
+
+<!-- ✅ 以下為專案內容 -->
+
 # F1-TelemetryStation-Pro
 
 **F1 data analysis**
