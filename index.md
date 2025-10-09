@@ -35,8 +35,8 @@ description: Professional F1 telemetry analysis workstation for lap comparison, 
     "priceCurrency": "USD"
   },
   "license": "https://opensource.org/licenses/MIT",
-  "softwareVersion": "0.2.0",
-  "datePublished": "2025-10-08",
+  "softwareVersion": "0.3.0",
+  "datePublished": "2025-10-09",
   "author": {
     "@type": "Person",
     "name": "WarmBed",
@@ -49,20 +49,22 @@ description: Professional F1 telemetry analysis workstation for lap comparison, 
   "screenshot": "https://warmbed.github.io/F1-TelemetryStation-Pro/images/Rain.track.pitstop.tire.accident.png",
   "featureList": [
     "F1 lap time comparison and analysis",
+    "Ideal lap ranking analysis with complete grid comparison",
+    "Interactive lap analysis tree view with smart filtering",
     "Throttle usage analysis and visualization",
     "Speed trace and telemetry data tracking",
     "Rain and weather impact analysis",
     "Pitstop strategy evaluation",
     "Interactive track visualization",
     "Multi-driver comparison tools",
-    "Real-time telemetry data from FastF1 API"
+    "Real-time telemetry data from FastF1 API",
+    "Standardized box plot typography (8pt)"
   ],
   "keywords": "F1, Formula 1, telemetry, data analysis, FastF1, motorsport analytics, lap comparison, racing data"
 }
 </script>
 
 <!-- ✅ 以下為專案內容 -->
-
 # F1-TelemetryStation-Pro
 
 **F1 data analysis**
@@ -105,7 +107,7 @@ In-depth single-lap performance analysis
 - 📊 **Speed Differential** - Speed difference tracking
 - 📏 **Distance Differential** - Cumulative distance gap
 
-#### 🚀 Throttle Analysis Module (NEW in V0.2.0)
+#### 🚀 Throttle Analysis Module 
 Comprehensive throttle usage analysis and comparison
 
 **Throttle Line Chart:**
@@ -163,6 +165,45 @@ Tire usage and strategy evaluation
 - Compound selection analysis
 - Degradation curves
 - Pit stop timing optimization
+
+#### 📊 Ideal Lap Analysis Module (NEW in V0.3.0)
+Comprehensive theoretical best lap analysis and sector comparison
+
+**Ideal Lap Ranking Table:**
+- **Complete Grid Analysis**: Theoretical best lap times for all drivers
+- **Statistical Metrics**: Median, range, and gap calculations
+- **Team Color Coding**: Visual driver identification with standardized colors
+- **Session Summary**: Fastest laps and perfect lap achievement rates
+- **Sector Breakdown**: Individual sector performance with visual indicators (✓ = optimal, ✗ = improvable)
+- **API Integration**: Real-time data from F1T API
+
+**Ideal Lap Sector Comparison:**
+- **Sector-by-Sector Analysis**: Detailed S1, S2, S3 delta comparison
+- **Cumulative Delta Visualization**: Bar chart showing total improvement potential
+- **Sortable Columns**: Click to sort by any sector or cumulative delta
+- **Color-Coded Performance**: Unified color standards for gap displays
+![F1 data analysis telemetry visualization tool](/images/Ideal_Lap.png)
+
+
+**UI Refinements** (October 10, 2025):
+- ✅ Sector marks with color separation (green ✓, black ✗)
+- ✅ Unified color standards for all gap displays (0.2s, 0.5s thresholds)
+- ✅ Sortable cumulative delta in sector comparison table
+
+![F1 data analysis telemetry visualization tool](/images/ideal_lap_ranking.png)
+
+#### 🌳 Interactive Lap Analysis Tree (NEW in V0.3.0)
+Hierarchical lap data visualization with intelligent filtering
+
+- **Tree Structure**: Organize laps by driver with expandable nodes
+- **Smart Filters**: Exclude pit laps, safety car periods, and statistical outliers
+- **Statistical Summaries**: Per-driver lap count, median time, and lap range
+- **Click-to-Analyze**: Double-click any lap to view detailed telemetry analysis
+- **Visual Indicators**: Color-coded lap times showing fastest/slowest laps
+- **Responsive Design**: Auto-resizing columns with optimal width distribution
+
+![F1 data analysis telemetry visualization tool](/images/lap_tree_view.png)
+
 ![F1 data analysis telemetry visualization tool](/images/throttle.png)
 
 ## 🔗 Special Features
@@ -200,38 +241,17 @@ Tire usage and strategy evaluation
 ## 🆕 What's New in V0.2.0
 
 ### Major Features
-- 🚀 **Throttle Analysis Module** with Line Chart and Box Plot
-- 🖱️ **Draggable Tooltip System** for all chart widgets
-- 🎯 **Dual-driver Comparison** with independent driver selection
-- ⚙️ **System Settings Integration** for throttle analysis preferences
 
 ### Bug Fixes
-- Fixed tooltip data confusion in dual-driver mode
-- Fixed auto-add driver parameters in Lap Analysis Dialog
-- Removed unnecessary text markers from dialog options
 
 ### UI/UX Improvements
-- Cleaner dialog option names (removed "(Table)", "(Visualization)", "(coming soon)")
-- Updated window title to V0.2.0
-- Removed duplicate version display in status bar
 
 ### Technical Improvements
-- Enhanced API-ONLY mode enforcement
-- Universal chart system with tooltip dragging support
-- Dual-driver tooltip data separation mechanism
 
 ## 📋 System Requirements
-
-- **Python**: 3.8 or higher
-- **Operating System**: Windows 10/11, macOS, Linux
-- **Internet Connection**: Required for API data retrieval
-- **Memory**: 4GB RAM minimum, 8GB recommended
-- **Storage**: 500MB for application and cache
+- **Operating System**: Windows 10 or later
 
 ## 🚀 Installation
-
-### Option 1: Standalone Executable (Windows)
-1. Download the latest `F1T_GUI.exe` from [Releases](https://github.com/WarmBed/F1-TelemetryStation-Pro/releases)
 2. Run `F1T_GUI.exe`
 3. No Python installation required!
 
@@ -256,13 +276,38 @@ Tire usage and strategy evaluation
 
 ## 📝 Version History
 
-### Current Version: V0.2.0 (2025-10-08)
+### Current Version: V0.3.0 (2025-10-10)
+**Major Features:**
+- ✅ **Ideal Lap Ranking Analysis**: Comprehensive theoretical best lap comparison for all drivers
+- ✅ **Ideal Lap Sector Comparison**: Detailed sector-by-sector performance analysis with cumulative delta visualization
+- ✅ **Interactive Lap Analysis Tree**: Hierarchical lap data view with smart filtering and click-to-analyze functionality
+- ✅ **Box Plot Typography Standardization**: Unified 8pt font across all chart elements for consistency
+
+**UI Refinements:**
+- 🎨 Sector marks with mixed color display (green ✓ for optimal, black ✗ for improvable)
+- 🎨 Unified color standards for gap displays (0.2s, 0.5s thresholds)
+- 🎨 Sortable cumulative delta column in sector comparison table
+- 🎨 Team color coding with black text for better readability
+
+**Technical Improvements:**
+- Custom `SectorMarksDelegate` for per-character color rendering
+- Shared color configuration module for visual consistency
+- Enhanced sorting functionality with dual DisplayRole/UserRole data
+- API-first data loading architecture
+
+### Previous Version: V0.2.1 (2025-10-09)
+- Colour palette system gains API-only mode toggle
+- Refreshed 2025 team/driver colours with API fallback hardening
+- Lap/Throttle box plots now render median & outliers in black
+- Main window and packaging metadata bumped to V0.2.1
+
+### Previous Version: V0.2.0 (2025-10-08)
 - Added Throttle Analysis Module (Line Chart + Box Plot)
 - Enhanced tooltip system with drag support
 - Improved dual-driver comparison
 - Multiple bug fixes and UI improvements
 
-### Previous Version: V0.1.0
+### Legacy Version: V0.1.0
 - Initial release with core analysis modules
 - Basic telemetry analysis
 - MDI workspace system
