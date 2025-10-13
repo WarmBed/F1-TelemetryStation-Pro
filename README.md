@@ -17,6 +17,15 @@ A professional Formula 1 telemetry analysis workstation providing comprehensive 
 ## 🌟 Features Overview
 
 ### Core Analysis Modules
+#### 🏠 Welcome Board
+Dynamic dashboard providing real-time season overview
+- **Season Progress**: Track completed and upcoming races throughout the season
+- **Weather Timeline**: Race weather forecast for the next upcoming event
+- **Constructor Standings**: Live team championship rankings and points
+- **Driver Standings**: Current driver championship positions and statistics
+- **Smart Layout**: Three-column arrangement (left split: progress/weather, middle: constructor, right: driver)
+- **Auto-Update**: Automatically selects current season data and next race information
+![F1 data analysis telemetry visualization tool](/images/welcome.png)
 
 #### 🌧️ Rain Analysis Module
 Analyzes meteorological conditions throughout the race
@@ -101,7 +110,7 @@ Tire usage and strategy evaluation
 - Degradation curves
 - Pit stop timing optimization
 
-#### 📊 Ideal Lap Analysis Module (NEW in V0.3.0)
+#### 📊 Ideal Lap Analysis Module 
 Comprehensive theoretical best lap analysis and sector comparison
 
 **Ideal Lap Ranking Table:**
@@ -120,14 +129,14 @@ Comprehensive theoretical best lap analysis and sector comparison
 ![F1 data analysis telemetry visualization tool](/images/Ideal_Lap.png)
 
 
-**UI Refinements** (October 10, 2025):
+**UI Refinements** 
 - ✅ Sector marks with color separation (green ✓, black ✗)
 - ✅ Unified color standards for all gap displays (0.2s, 0.5s thresholds)
 - ✅ Sortable cumulative delta in sector comparison table
 
 ![F1 data analysis telemetry visualization tool](/images/ideal_lap_ranking.png)
 
-#### 🌳 Interactive Lap Analysis Tree (NEW in V0.3.0)
+#### 🌳 Interactive Lap Analysis Tree 
 Hierarchical lap data visualization with intelligent filtering
 
 - **Tree Structure**: Organize laps by driver with expandable nodes
@@ -173,15 +182,6 @@ Hierarchical lap data visualization with intelligent filtering
 - **Modular Design**: Independent and extensible analysis modules
 - **Dynamic Import Architecture**: Optimized memory usage with on-demand module loading
 
-## 🆕 What's New in V0.2.0
-
-### Major Features
-
-### Bug Fixes
-
-### UI/UX Improvements
-
-### Technical Improvements
 
 ## 📋 System Requirements
 - **Operating System**: Windows 10 or later
@@ -191,27 +191,29 @@ Hierarchical lap data visualization with intelligent filtering
 3. No Python installation required!
 
 
+### Current Version: V0.4.0 (2025-10-13)
+**Major Features:**
+- ✅ **Ideal Lap S1/S2/S3 Display**: Complete sector time display for ideal lap analysis modules (sector heatmap, comparison chart, ranking table)
+- ✅ **Time-Axis Mode for Lap Analysis**: Time-based X-axis option for all telemetry charts (speed, brake, throttle, RPM, gear, acceleration)
+- ✅ **Time Diff Analysis Module**: New dedicated module for lap time difference analysis with cumulative delta visualization
+- ✅ **Welcome Page Dashboard**: Integrated dashboard displaying driver standings, constructor standings, season progress, and weather timeline
 
-## 📖 Quick Start Guide
+**UI Refinements:**
+- 🎨 S1/S2/S3 sector time display in ideal lap sector heatmap
+- 🎨 Time-axis toggle available in lap analysis chart widgets
+- 🎨 Welcome page with real-time championship standings and weather forecast
 
-1. **Select Year/Race/Session** from the main window dropdowns
-2. **Choose Analysis Module** from the menu (e.g., Throttle Analysis > Throttle Line Chart)
-3. **Select Drivers** for comparison (Driver 1 required, Driver 2 optional)
-4. **View Analysis Results** in the MDI window
-5. **Interact with Charts**: Pin tooltips, drag legend, zoom/pan
+**Technical Improvements:**
+- Time data extraction in telemetry data loader base (`_extract_time_data()`)
+- `set_time_axis_mode()` method implemented across all lap analysis modules
+- Time diff analysis MDI, data loader, and chart widget architecture
+- Welcome tab creation with multiple MDI integration (`create_welcome_tab()`)
 
-### Example: Throttle Line Chart Analysis
-```
-1. Menu: Throttle Analysis > Throttle Line Chart
-2. Set: Year=2025, Race=Japan, Session=R
-3. Select: Driver 1 = VER, Driver 2 = LEC (or None)
-4. View: Per-lap throttle usage comparison
-5. Interact: Click to pin tooltips, drag to reposition
-```
+**Bug Fixes:**
+- ✅ **EXE Language Switching Fixed**: Language configuration now persists correctly in EXE mode using user directory (`~/.f1telemetrystation/`)
+- ✅ **PyInstaller Module Coverage**: Updated `F1T_GUI.spec` hiddenimports from 48 to 125 modules for complete Japanese menu support
 
-## 📝 Version History
-
-### Current Version: V0.3.0 (2025-10-10)
+### Previous Version: V0.3.0 (2025-10-10)
 **Major Features:**
 - ✅ **Ideal Lap Ranking Analysis**: Comprehensive theoretical best lap comparison for all drivers
 - ✅ **Ideal Lap Sector Comparison**: Detailed sector-by-sector performance analysis with cumulative delta visualization
@@ -247,15 +249,6 @@ Hierarchical lap data visualization with intelligent filtering
 - Basic telemetry analysis
 - MDI workspace system
 
-## 👥 Contributing
-
-Contributions are welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.
-
-### Development Guidelines
-- Follow the existing code structure
-- Update `hiddenimports` in `F1T_GUI.spec` for new dynamic imports
-- Test both Python and EXE environments
-- Update documentation for new features
 
 ## 📄 License
 
@@ -274,19 +267,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **Issues**: [Report a Bug](https://github.com/WarmBed/F1-TelemetryStation-Pro/issues)
 - **Discussions**: [Join the Discussion](https://github.com/WarmBed/F1-TelemetryStation-Pro/discussions)
 
-## 📸 Screenshots
-
-### Throttle Line Chart (V0.2.0)
-*Per-lap throttle usage comparison with dual-driver support*
-
-### Throttle Box Plot (V0.2.0)
-*Statistical distribution of throttle usage across all drivers*
-
-### Detailed Lap Analysis
-*Comprehensive lap time analysis with box plot visualization*
-
-### Multi-window MDI Workspace
-*Flexible workspace with multiple analysis views*
 
 ---
 
