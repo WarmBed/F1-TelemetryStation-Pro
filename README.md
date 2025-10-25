@@ -134,7 +134,7 @@ Comprehensive theoretical best lap analysis and sector comparison
 - ✅ Unified color standards for all gap displays (0.2s, 0.5s thresholds)
 - ✅ Sortable cumulative delta in sector comparison table
 
-![F1 data analysis telemetry visualization tool](/images/ideal_lap_ranking.png)
+
 
 #### 🌳 Interactive Lap Analysis Tree 
 Hierarchical lap data visualization with intelligent filtering
@@ -146,7 +146,6 @@ Hierarchical lap data visualization with intelligent filtering
 - **Visual Indicators**: Color-coded lap times showing fastest/slowest laps
 - **Responsive Design**: Auto-resizing columns with optimal width distribution
 
-![F1 data analysis telemetry visualization tool](/images/lap_tree_view.png)
 
 ![F1 data analysis telemetry visualization tool](/images/throttle.png)
 
@@ -186,11 +185,11 @@ Hierarchical lap data visualization with intelligent filtering
 
 **Major Features:**
 - ✅ **Startup Interface Enhancement**: Improved initialization screen with progress indicators and loading status to provide better user feedback during application launch
-(/images/initialize.png)
+![F1 data analysis telemetry visualization tool](/images/initialize.png)
 - ✅ **Workspace Management System**: Complete workspace functionality allowing users to save current window layouts, analysis configurations, and restore them on next startup
-(/images/workspace.png)
+![F1 data analysis telemetry visualization tool](/images/workspace.png)
 - ✅ **Tab Pop-out Feature**: Enhanced tab system with support for detaching tabs into independent floating windows for multi-monitor workflows
-(/images/popout.png)
+![F1 data analysis telemetry visualization tool](/images/popout.png)
 **UI Refinements:**
 - 🎨 Startup progress bar with detailed loading stages
 - 🎨 Workspace save/load dialog with preview functionality
