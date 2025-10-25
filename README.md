@@ -1,18 +1,13 @@
 # F1-TelemetryStation-Pro
+
+**F1-TelemetryStation-Pro** is an open-source **Formula 1 telemetry and data analysis workstation** for engineers, analysts, and racing enthusiasts.  
+It provides a unified platform for in-depth **F1 data exploration**, including lap comparison, throttle and brake performance, tire strategy evaluation, and interactive track visualization.  
+Designed for precision and clarity, it transforms real **F1 telemetry data** into actionable race insights through modern visualization and analysis tools.
+
+
 ![F1 data analysis telemetry visualization tool](/images/initialize.png)
-**F1 data analysis**
 
 English | [繁體中文](README.zh-TW.md)
-
-## What is this?
-
-F1-TelemetryStation-Pro is an open-source **F1 data analysis** and telemetry visualization tool.  
-It allows race engineers, sim racers, and data fans to analyze lap times, throttle usage, speed traces, and driver comparisons using real Formula 1 telemetry.
-
-
-A professional Formula 1 telemetry analysis workstation providing comprehensive race data analysis capabilities.
-
-![F1 data analysis telemetry visualization tool](/images/Rain.track.pitstop.tire.accident.png)
 
 ## 🌟 Features Overview
 

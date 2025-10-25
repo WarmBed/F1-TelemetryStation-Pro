@@ -1,17 +1,13 @@
 # F1-TelemetryStation-Pro
+
+**F1-TelemetryStation-Pro** 是一個開源的 **Formula 1 遙測與數據分析工作站**，專為工程師、分析師和賽車愛好者打造。  
+它提供一個統一的平台，用於深入的 **F1 數據探索**，包括圈速比較、油門和剎車性能、輪胎策略評估以及互動式賽道視覺化。  
+以精確性和清晰度為設計理念，透過現代化的視覺化和分析工具，將真實的 **F1 遙測數據**轉化為可執行的賽事洞察。
+
+
 ![F1 data analysis telemetry visualization tool](/images/initialize.png)
-**F1 數據分析工具**
 
 [English](README.md) | 繁體中文
-
-## 這是什麼？
-
-F1-TelemetryStation-Pro 是一個開源的 **F1 數據分析**與遙測數據視覺化工具。  
-讓賽車工程師、模擬賽車玩家和數據愛好者能夠使用真實的 Formula 1 遙測數據分析圈速、油門使用、速度軌跡以及車手比較。
-
-專業的 Formula 1 遙測分析工作站，提供全面的賽事數據分析能力。
-
-![F1 數據分析遙測視覺化工具](/images/Rain.track.pitstop.tire.accident.png)
 
 ## 🌟 功能概覽
 
