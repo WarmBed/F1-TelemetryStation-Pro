@@ -63,6 +63,8 @@ Comprehensive throttle usage analysis and comparison
 - **Multi-driver comparison**: Analyze throttle patterns for entire grid
 - **Team color coding**: Visual identification by team colors
 
+![F1 data analysis telemetry visualization tool](/images/throttle.png)
+
 **Key Features:**
 - 📊 Lap-by-lap throttle usage tracking
 - 🎯 Dual-driver comparison with independent selection
@@ -141,40 +143,6 @@ Hierarchical lap data visualization with intelligent filtering
 - **Visual Indicators**: Color-coded lap times showing fastest/slowest laps
 - **Responsive Design**: Auto-resizing columns with optimal width distribution
 
-
-![F1 data analysis telemetry visualization tool](/images/throttle.png)
-
-## 🔗 Special Features
-
-### Linkage System
-- **X-axis Synchronization**: Multiple telemetry charts display the same position
-- **Click Linkage**: Click on one chart, others follow automatically
-- **Master Toggle**: Global enable/disable for linkage functionality
-
-### Workspace Management
-- **Save Workspace**: Preserve current analysis configuration
-- **Load Workspace**: Quickly restore previous analysis environment
-- **Multi-tab Support**: Open multiple analysis perspectives simultaneously
-
-### MDI Window System
-- **Free Arrangement**: Drag and resize windows freely
-- **Cascade/Tile**: Quick window layout organization
-- **Pop-out Feature**: Display analysis windows independently
-
-### Enhanced Chart Interactions (NEW in V0.2.0)
-- **Draggable Tooltips**: Pin and drag tooltip boxes to any position
-- **Data Point Pinning**: Click to pin data points with persistent tooltips
-- **Connection Lines**: Dashed lines connecting tooltips to original data points
-- **Dual-driver Tooltip Separation**: Independent tooltips for each driver's data
-- **Draggable Legend**: Reposition chart legends for better visibility
-
-## 🌐 System Highlights
-
-- **Multi-language Support**: 中文 🇹🇼 / English 🇺🇸 / 日本語 🇯🇵
-- **API-ONLY Mode**: Data retrieval exclusively through REST API 
-- **Parameter Synchronization**: Sync year/race/session settings between main and sub-windows
-- **Modular Design**: Independent and extensible analysis modules
-- **Dynamic Import Architecture**: Optimized memory usage with on-demand module loading
 
 ### Current Version: V0.5.0 (2025-10-25)
 
@@ -274,6 +242,39 @@ Detailed braking efficiency and deceleration analysis across the entire grid
 - Initial release with core analysis modules
 - Basic telemetry analysis
 - MDI workspace system
+
+
+## 🔗 Special Features
+
+### Linkage System
+- **X-axis Synchronization**: Multiple telemetry charts display the same position
+- **Click Linkage**: Click on one chart, others follow automatically
+- **Master Toggle**: Global enable/disable for linkage functionality
+
+### Workspace Management
+- **Save Workspace**: Preserve current analysis configuration
+- **Load Workspace**: Quickly restore previous analysis environment
+- **Multi-tab Support**: Open multiple analysis perspectives simultaneously
+
+### MDI Window System
+- **Free Arrangement**: Drag and resize windows freely
+- **Cascade/Tile**: Quick window layout organization
+- **Pop-out Feature**: Display analysis windows independently
+
+### Enhanced Chart Interactions (NEW in V0.2.0)
+- **Draggable Tooltips**: Pin and drag tooltip boxes to any position
+- **Data Point Pinning**: Click to pin data points with persistent tooltips
+- **Connection Lines**: Dashed lines connecting tooltips to original data points
+- **Dual-driver Tooltip Separation**: Independent tooltips for each driver's data
+- **Draggable Legend**: Reposition chart legends for better visibility
+
+## 🌐 System Highlights
+
+- **Multi-language Support**: 中文 🇹🇼 / English 🇺🇸 / 日本語 🇯🇵
+- **API-ONLY Mode**: Data retrieval exclusively through REST API 
+- **Parameter Synchronization**: Sync year/race/session settings between main and sub-windows
+- **Modular Design**: Independent and extensible analysis modules
+- **Dynamic Import Architecture**: Optimized memory usage with on-demand module loading
 
 ## 👥 Contributing
 
