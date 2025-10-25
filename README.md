@@ -182,16 +182,28 @@ Hierarchical lap data visualization with intelligent filtering
 - **Modular Design**: Independent and extensible analysis modules
 - **Dynamic Import Architecture**: Optimized memory usage with on-demand module loading
 
+### Current Version: V0.5.0 (2025-10-25)
 
-## 📋 System Requirements
-- **Operating System**: Windows 10 or later
+**Major Features:**
+- ✅ **Startup Interface Enhancement**: Improved initialization screen with progress indicators and loading status to provide better user feedback during application launch
+(/images/initialize.png)
+- ✅ **Workspace Management System**: Complete workspace functionality allowing users to save current window layouts, analysis configurations, and restore them on next startup
+(/images/workspace.png)
+- ✅ **Tab Pop-out Feature**: Enhanced tab system with support for detaching tabs into independent floating windows for multi-monitor workflows
+(/images/popout.png)
+**UI Refinements:**
+- 🎨 Startup progress bar with detailed loading stages
+- 🎨 Workspace save/load dialog with preview functionality
+- 🎨 Tab drag-and-drop support for window detachment
+- 🎨 Independent window management for detached analysis modules
 
-## 🚀 Installation
-2. Run `F1T_GUI.exe`
-3. No Python installation required!
+**Technical Improvements:**
+- Workspace serialization system for MDI layout persistence
+- Tab window state management with geometry preservation
+- Multi-window coordination for synchronized parameter updates
+- Enhanced splash screen with real-time initialization feedback
 
-
-### Current Version: V0.4.0 (2025-10-13)
+### Previous Version: V0.4.0 (2025-10-13)
 **Major Features:**
 - ✅ **Ideal Lap S1/S2/S3 Display**: Complete sector time display for ideal lap analysis modules (sector heatmap, comparison chart, ranking table)
 - ✅ **Time-Axis Mode for Lap Analysis**: Time-based X-axis option for all telemetry charts (speed, brake, throttle, RPM, gear, acceleration)
@@ -249,6 +261,15 @@ Hierarchical lap data visualization with intelligent filtering
 - Basic telemetry analysis
 - MDI workspace system
 
+## 👥 Contributing
+
+Contributions are welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.
+
+### Development Guidelines
+- Follow the existing code structure
+- Update `hiddenimports` in `F1T_GUI.spec` for new dynamic imports
+- Test both Python and EXE environments
+- Update documentation for new features
 
 ## 📄 License
 
@@ -267,6 +288,19 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **Issues**: [Report a Bug](https://github.com/WarmBed/F1-TelemetryStation-Pro/issues)
 - **Discussions**: [Join the Discussion](https://github.com/WarmBed/F1-TelemetryStation-Pro/discussions)
 
+## 📸 Screenshots
+
+### Throttle Line Chart (V0.2.0)
+*Per-lap throttle usage comparison with dual-driver support*
+
+### Throttle Box Plot (V0.2.0)
+*Statistical distribution of throttle usage across all drivers*
+
+### Detailed Lap Analysis
+*Comprehensive lap time analysis with box plot visualization*
+
+### Multi-window MDI Workspace
+*Flexible workspace with multiple analysis views*
 
 ---
 
