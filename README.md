@@ -1,5 +1,5 @@
 # F1-TelemetryStation-Pro
-
+![F1 data analysis telemetry visualization tool](/images/initialize.png)
 **F1 data analysis**
 
 English | [繁體中文](README.zh-TW.md)
@@ -195,6 +195,26 @@ Hierarchical lap data visualization with intelligent filtering
 - 🎨 Workspace save/load dialog with preview functionality
 - 🎨 Tab drag-and-drop support for window detachment
 - 🎨 Independent window management for detached analysis modules
+
+#### 🚗 All Drivers Straight Line Speed Analysis (Experimental)
+Comprehensive straight-line acceleration and maximum speed analysis for all drivers
+- **Maximum Speed Tracking**: Peak velocity achieved on track straights
+- **Segment-based Analysis**: Track-specific speed zones and acceleration corridors
+- **Performance Visualization**: Bar charts showing relative acceleration times
+- **Team Color Coding**: Visual driver identification with standardized team colors
+- **Sortable Data Tables**: Click-to-sort functionality for all performance metrics
+![F1 data analysis telemetry visualization tool](/images/all_driver_speed .png)
+
+#### 🛑 All Drivers Brake Performance Analysis (Experimental)
+Detailed braking efficiency and deceleration analysis across the entire grid
+- **Maximum Deceleration**: Peak G-force values during braking zones
+- **Brake Distance Analysis**: Distance required for speed reduction
+- **Brake Time Measurement**: Duration of braking events
+- **Speed Reduction Tracking**: Start/end speeds for braking zones
+- **Visual Performance Bars**: Brake time visualization with relative scaling
+- **Reference Zone Display**: Track-specific brake zone distance markers
+![F1 data analysis telemetry visualization tool](/images/all_driver_brake.png)
+
 
 **Technical Improvements:**
 - Workspace serialization system for MDI layout persistence
