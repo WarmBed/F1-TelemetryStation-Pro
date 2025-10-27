@@ -166,6 +166,7 @@ Hierarchical lap data visualization with intelligent filtering
 - Multi-phase telemetry data extraction and processing
 - Statistical distribution analysis for corner performance metrics
 
+![F1 data analysis telemetry visualization tool](/images/corner.png)
 ### Previous Version: V0.5.0 (2025-10-25)
 
 **Major Features:**
