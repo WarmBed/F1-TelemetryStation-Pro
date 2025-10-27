@@ -1,13 +1,18 @@
 # F1-TelemetryStation-Pro
-
-**F1-TelemetryStation-Pro** is an open-source **Formula 1 telemetry and data analysis workstation** for engineers, analysts, and racing enthusiasts.  
-It provides a unified platform for in-depth **F1 data exploration**, including lap comparison, throttle and brake performance, tire strategy evaluation, and interactive track visualization.  
-Designed for precision and clarity, it transforms real **F1 telemetry data** into actionable race insights through modern visualization and analysis tools.
-
-
 ![F1 data analysis telemetry visualization tool](/images/initialize.png)
+**F1 data analysis**
 
 English | [繁體中文](README.zh-TW.md)
+
+## What is this?
+
+F1-TelemetryStation-Pro is an open-source **F1 data analysis** and telemetry visualization tool.  
+It allows race engineers, sim racers, and data fans to analyze lap times, throttle usage, speed traces, and driver comparisons using real Formula 1 telemetry.
+
+
+A professional Formula 1 telemetry analysis workstation providing comprehensive race data analysis capabilities.
+
+![F1 data analysis telemetry visualization tool](/images/Rain.track.pitstop.tire.accident.png)
 
 ## 🌟 Features Overview
 
@@ -62,8 +67,6 @@ Comprehensive throttle usage analysis and comparison
 - **Min/Max tooltips**: Hover to see extreme values and outliers
 - **Multi-driver comparison**: Analyze throttle patterns for entire grid
 - **Team color coding**: Visual identification by team colors
-
-![F1 data analysis telemetry visualization tool](/images/throttle.png)
 
 **Key Features:**
 - 📊 Lap-by-lap throttle usage tracking
@@ -144,7 +147,26 @@ Hierarchical lap data visualization with intelligent filtering
 - **Responsive Design**: Auto-resizing columns with optimal width distribution
 
 
-### Current Version: V0.5.0 (2025-10-25)
+![F1 data analysis telemetry visualization tool](/images/throttle.png)
+
+
+### Current Version: V0.6.0 (2025-10-27)
+
+**Major Features:**
+- ✅ **Track Map Enhancement - Corner Numbering**: Added corner number annotations to track map visualization for improved position identification and reference during analysis
+- ✅ **Corner Analysis Module - Dynamic Speed Distribution**: Implements dynamic corner classification system (low/medium/high-speed corners) with speed distribution analysis for three critical phases (entry/apex/exit speed)
+
+**UI Refinements:**
+- 🎨 Corner number overlays on track map with optimal positioning
+- 🎨 Speed distribution plots with color-coded corner classifications
+- 🎨 Entry-Apex-Exit phase comparison visualization
+
+**Technical Improvements:**
+- Dynamic corner detection algorithm based on speed thresholds
+- Multi-phase telemetry data extraction and processing
+- Statistical distribution analysis for corner performance metrics
+
+### Previous Version: V0.5.0 (2025-10-25)
 
 **Major Features:**
 - ✅ **Startup Interface Enhancement**: Improved initialization screen with progress indicators and loading status to provide better user feedback during application launch
@@ -276,15 +298,11 @@ Detailed braking efficiency and deceleration analysis across the entire grid
 - **Modular Design**: Independent and extensible analysis modules
 - **Dynamic Import Architecture**: Optimized memory usage with on-demand module loading
 
+
 ## 👥 Contributing
 
 Contributions are welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.
 
-### Development Guidelines
-- Follow the existing code structure
-- Update `hiddenimports` in `F1T_GUI.spec` for new dynamic imports
-- Test both Python and EXE environments
-- Update documentation for new features
 
 ## 📄 License
 
@@ -301,21 +319,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - **GitHub**: [WarmBed/F1-TelemetryStation-Pro](https://github.com/WarmBed/F1-TelemetryStation-Pro)
 - **Issues**: [Report a Bug](https://github.com/WarmBed/F1-TelemetryStation-Pro/issues)
-- **Discussions**: [Join the Discussion](https://github.com/WarmBed/F1-TelemetryStation-Pro/discussions)
 
-## 📸 Screenshots
-
-### Throttle Line Chart (V0.2.0)
-*Per-lap throttle usage comparison with dual-driver support*
-
-### Throttle Box Plot (V0.2.0)
-*Statistical distribution of throttle usage across all drivers*
-
-### Detailed Lap Analysis
-*Comprehensive lap time analysis with box plot visualization*
-
-### Multi-window MDI Workspace
-*Flexible workspace with multiple analysis views*
 
 ---
 
