@@ -66,7 +66,9 @@ Comprehensive throttle usage analysis and comparison
 - **Percentage modes**: Toggle between actual percentage or lap percentage display
 - **Min/Max tooltips**: Hover to see extreme values and outliers
 - **Multi-driver comparison**: Analyze throttle patterns for entire grid
-- **Team color coding**: Visual identification by team colors
+
+
+![F1 data analysis telemetry visualization tool](/images/throttle.png)
 
 **Key Features:**
 - 📊 Lap-by-lap throttle usage tracking
@@ -150,7 +152,17 @@ Hierarchical lap data visualization with intelligent filtering
 ![F1 data analysis telemetry visualization tool](/images/throttle.png)
 
 
-### Current Version: V0.6.0 (2025-10-27)
+###  Version: V0.7.0 (2025-11-08)
+
+**Major Features:**
+- ✅ **Driver Race Position Analysis**: Track position changes during race with start/finish/best/worst rankings and visual indicators (▲▼━)
+- ✅ **Qualifying Prediction Module**: ML-based FP3→Q prediction using XGBoost v3.10 track-specific models with R²/MAE metrics
+![Qualifying Prediction Module](/images/QualifyingPrediction.png)
+
+- ✅ **Vehicle Parts Changes Analysis**: FIA technical document parsing with 15 main categories, 61 sub-categories, and multi-filter system
+![Vehicle Parts Changes Analysis](/images/Vehicle Parts Changes.png)
+
+###  Version: V0.6.0 (2025-10-27)
 
 **Major Features:**
 - ✅ **Track Map Enhancement - Corner Numbering**: Added corner number annotations to track map visualization for improved position identification and reference during analysis
@@ -176,7 +188,7 @@ Hierarchical lap data visualization with intelligent filtering
 ![F1 data analysis telemetry visualization tool](/images/workspace.png)
 - ✅ **Tab Pop-out Feature**: Enhanced tab system with support for detaching tabs into independent floating windows for multi-monitor workflows
 ![F1 data analysis telemetry visualization tool](/images/popout.png)
-**UI Refinements:**
+**UI Refinements:**W
 - 🎨 Startup progress bar with detailed loading stages
 - 🎨 Workspace save/load dialog with preview functionality
 - 🎨 Tab drag-and-drop support for window detachment
