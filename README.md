@@ -160,7 +160,7 @@ Hierarchical lap data visualization with intelligent filtering
 ![Qualifying Prediction Module](/images/QualifyingPrediction.png)
 
 - ✅ **Vehicle Parts Changes Analysis**: FIA technical document parsing with 15 main categories, 61 sub-categories, and multi-filter system
-![Vehicle Parts Changes Analysis](/images/Vehicle Parts Changes.png)
+![Vehicle Parts Changes Analysis](/images/VehiclePartsChanges.png)
 
 ###  Version: V0.6.0 (2025-10-27)
 
