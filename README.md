@@ -38,7 +38,7 @@ In-depth single-lap performance analysis
 - Driver lap time comparison
 - Fastest lap analysis
 - Comprehensive telemetry data
-
+- Cross-Session Telemetry Comparison Enhanced telemetry analysis modules now support Q vs R session comparison, enabling qualifying-to-race performance analysis across all 9 telemetry modules (Speed, Brake, Throttle, Gear, RPM, Acceleration, Speed Diff, Time Diff, Distance Diff)
 ![F1 data analysis telemetry visualization tool](/images/Lap.track.png)
 
 **Sub-modules:**
@@ -136,20 +136,19 @@ Comprehensive theoretical best lap analysis and sector comparison
 - ✅ Unified color standards for all gap displays (0.2s, 0.5s thresholds)
 - ✅ Sortable cumulative delta in sector comparison table
 
+###  Version: V0.8.0 (2025-11-15)
+
+**Major Features:**
+- ✅ **Historical Circuit Analysis**: Comprehensive historical flag statistics (Yellow/Red/SC/VSC) for all circuits from 2022-2025, providing strategic insights into track characteristics and incident patterns
+
+![F1 data analysis telemetry visualization tool](/images/trackmap.png)
 
 
-#### 🌳 Interactive Lap Analysis Tree 
-Hierarchical lap data visualization with intelligent filtering
+**Technical Improvements:**
+- Unified translation system using `tr()` function across all telemetry modules
+- Translation key standardization (`driver_1_info`, `driver_2_info`, `race_info`, `driver_info`, `versus`)
+- Enhanced data loader architecture supporting cross-session parameter management
 
-- **Tree Structure**: Organize laps by driver with expandable nodes
-- **Smart Filters**: Exclude pit laps, safety car periods, and statistical outliers
-- **Statistical Summaries**: Per-driver lap count, median time, and lap range
-- **Click-to-Analyze**: Double-click any lap to view detailed telemetry analysis
-- **Visual Indicators**: Color-coded lap times showing fastest/slowest laps
-- **Responsive Design**: Auto-resizing columns with optimal width distribution
-
-
-![F1 data analysis telemetry visualization tool](/images/throttle.png)
 
 
 ###  Version: V0.7.0 (2025-11-08)
@@ -160,7 +159,7 @@ Hierarchical lap data visualization with intelligent filtering
 ![Qualifying Prediction Module](/images/QualifyingPrediction.png)
 
 - ✅ **Vehicle Parts Changes Analysis**: FIA technical document parsing with 15 main categories, 61 sub-categories, and multi-filter system
-![Vehicle Parts Changes Analysis](/images/VehiclePartsChanges.png)
+![Vehicle Parts Changes Analysis](/images/Vehicle Parts Changes.png)
 
 ###  Version: V0.6.0 (2025-10-27)
 
